@@ -41,7 +41,7 @@
 ## 📊 사용 데이터 및 피처
 
 - 데이터 출처: 가락시장 농산물 도매가
-- 사용 대상: 양파(HIGH 등급)
+- 사용 대상: 양파, 배추, 무, 감자, 고구마, 토마토(HIGH,Speacial 등급)
 - 주요 입력 피처:
   - intake (반입량)
   - gap (전일대비 반입 격차)
@@ -56,28 +56,19 @@
 | 영역 | 기술 |
 |------|------|
 | 프론트엔드 | React, Figma |
-| 백엔드 | Spring Boot, H2 Database |
+| 백엔드 | Spring Boot, mysql |
 | 머신러닝 | Python, PyTorch, Pandas, Scikit-learn |
 | 배포 | AWS EC2 |
 | 협업 | Git, Notion, Discord |
 
----
-
-
-
-## 📈 예측 그래프 예시
-
-![예측 그래프 예시](./assets/lstm_ewc_prediction.png)
-
----
 
 ## 🙋 팀 소개
 
 | 이름  | 역할                  |
 | --- | ------------------- |
-| 이우중 | 프론트엔드 / 데이터 분석      |
-| 배성빈 | 프론트엔드 / 백엔드         |
-| 이찬우 | 백엔드 / 데이터 처리 / 머신러닝 |
+| 이우중 | 프론트엔드 / 데이터 분석 / 머신러닝   |
+| 배성빈 | 프론트엔드 / 머신러닝        |
+| 이찬우 | 백엔드 / 데이터 처리 |
 
 ---
 
@@ -87,19 +78,5 @@
 * [LSTM 논문: Hochreiter & Schmidhuber (1997)](https://www.bioinf.jku.at/publications/older/2604.pdf)
 * [가락시장 공식 사이트](http://www.garak.co.kr/)
 
----
 
-## 📌 향후 개선 방향
 
-* 시계열 모델 비교 (LSTM vs Transformer vs Linear 등)
-* 품목 확대: 배추, 상추 등 다양한 채소로 확장
-* 웹 기반 실시간 예측 서비스 배포
-
----
-
-> 프로젝트명: **딱대(Justick)**
-> 슬로건: **내일의 채소값을 알려줄게!**
-
-```
-
----
