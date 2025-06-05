@@ -80,8 +80,6 @@
 
 ## 📚 참고 논문 / 기술 기반
 
-## 📚 참고 논문 / 기술 기반
-
 - **EWC**  
   *Overcoming catastrophic forgetting in neural networks*, Kirkpatrick et al., 2017 (PNAS)  
   👉 [arXiv:1612.00796](https://arxiv.org/abs/1612.00796)
