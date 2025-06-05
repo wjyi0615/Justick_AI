@@ -80,10 +80,24 @@
 
 ## 📚 참고 논문 / 기술 기반
 
-- **EWC**: *Overcoming catastrophic forgetting in neural networks*, Kirkpatrick et al., 2017 (PNAS)  
-- **DLinear**: *Time Series is a Special Sequence*, NeurIPS 2022  
-- **DoubleAdapt**: *Few-shot Adaptive Time Series Forecasting*, ICLR 2023  
-- **XGBoost**: *Chen & Guestrin, KDD 2016*
+## 📚 참고 논문 / 기술 기반
+
+- **EWC**  
+  *Overcoming catastrophic forgetting in neural networks*, Kirkpatrick et al., 2017 (PNAS)  
+  👉 [arXiv:1612.00796](https://arxiv.org/abs/1612.00796)
+
+- **DLinear**  
+  *Time Series is a Special Sequence: Forecasting with Decomposition and Graph Neural Networks*, Zeng et al., NeurIPS 2022  
+  👉 [arXiv:2210.03629](https://arxiv.org/abs/2210.03629)
+
+- **DoubleAdapt**  
+  *Few-shot Adaptive Time Series Forecasting via Meta-Learning*, Zhang et al., ICLR 2023  
+  👉 [arXiv:2210.10088](https://arxiv.org/abs/2210.10088)
+
+- **XGBoost**  
+  *XGBoost: A Scalable Tree Boosting System*, Chen & Guestrin, KDD 2016  
+  👉 [ACM Digital Library](https://dl.acm.org/doi/10.1145/2939672.2939785)
+
 - [Attention is All You Need (Self-Attention)](https://arxiv.org/abs/1706.03762)  
 - [가락시장 공식 사이트 (데이터 출처)](http://www.garak.co.kr/)
 
