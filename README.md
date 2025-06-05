@@ -53,13 +53,12 @@
 
 ## 🛠 기술 스택
 
-| 영역 | 기술 |
-|------|------|
-| 프론트엔드 | React, Figma |
-| 백엔드 | Spring Boot, mysql |
-| 머신러닝 | Python, PyTorch, Pandas, Scikit-learn |
-| 배포 | AWS EC2 |
-| 협업 | Git, Notion, Discord |
+| 영역        | 기술                                    |
+| --------- | ------------------------------------- |
+| **프론트엔드** | React, Figma                          |
+| **백엔드**   | Spring Boot, MySQL                    |
+| **머신러닝**  | Python, PyTorch, Pandas, Scikit-learn |
+| **배포**    | AWS EC2, **Docker**, **Kubernetes**   |
 
 
 ## 🙋 팀 소개
@@ -74,9 +73,13 @@
 
 ## 📎 참고 문서
 
-* [EWC 논문: Overcoming catastrophic forgetting in neural networks](https://arxiv.org/abs/1612.00796)
-* [LSTM 논문: Hochreiter & Schmidhuber (1997)](https://www.bioinf.jku.at/publications/older/2604.pdf)
-* [가락시장 공식 사이트](http://www.garak.co.kr/)
+- [EWC 논문: Overcoming catastrophic forgetting in neural networks](https://arxiv.org/abs/1612.00796)  
+- [LSTM 논문: Hochreiter & Schmidhuber (1997)](https://www.bioinf.jku.at/publications/older/2604.pdf)  
+- [XGBoost: A Scalable Tree Boosting System](https://arxiv.org/abs/1603.02754)  
+- [DLinear: A Linear Layer Based Time-Series Forecasting Model](https://arxiv.org/abs/2210.06536)  
+- [Attention is All You Need (Self-Attention)](https://arxiv.org/abs/1706.03762)  
+- [가락시장 공식 사이트 (데이터 출처)](http://www.garak.co.kr/)
+
 
 
 
