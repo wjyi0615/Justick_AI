@@ -19,7 +19,7 @@
 
 - 원하는 **농산물 도매 시세 정보 조회**  
 - **과거 시세 변동 추이 시각화** (월별 그래프 제공)
-- 작물에 따라 **DLinear, XGBoost, LSTM+EWC, DoubleAdapt** 등 **맞춤형 모델 자동 적용**
+- 작물에 따라 DLinear, XGBoost, **LSTM+EWC, DoubleAdapt** 등 **맞춤형 모델 자동 적용**
 - **LSTM + EWC 기반 지속학습(Continual Learning)** 으로 **매일 업데이트되는 데이터를 반영**
 - **1일, 7일, 28일 단위 예측** 결과 제공
 ---
