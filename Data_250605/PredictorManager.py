@@ -35,7 +35,7 @@ class PredictionManager:
 
                 # Step 3: 가장 앞 1일을 Predictor로 덮어쓰기
                 model1 = Predictor()
-                model1.fit(df, cutoff_date=cutoff_date, months=list(range(1, 13)), rate=grade)
+                model1.fit(df, cutoff_date=cutoff_date, months=[4, 5, 6], rate=grade)
                 pred_1 = pd.Series(model1.post_latest())
                 pred_28.iloc[0] = pred_1
                 model1.save(grade, item, self.model_dir)
