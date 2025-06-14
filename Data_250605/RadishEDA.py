@@ -2,8 +2,8 @@ import os
 import pandas as pd
 
 # 파일 경로
-onion_path = 'data/RadishPrice.xlsx'
-intake_path = 'data/RadishIntake.xlsx'
+onion_path = 'Data_250605/data/RadishPrice.xlsx'
+intake_path = 'Data_250605/data/RadishIntake.xlsx'
 
 # 시트 불러오기
 onion_df = pd.read_excel(onion_path, sheet_name=0)
@@ -46,9 +46,11 @@ merged['gap'] = merged.groupby('rate')['avg_price'].diff().fillna(0).astype(int)
 final_df = merged[['year', 'month', 'day', 'intake', 'avg_price', 'gap', 'rate']]
 final_df = final_df.sort_values(['year', 'month', 'day', 'rate'])
 
+final_df.sort_values(by=['rate', 'year', 'month', 'day'], inplace=True)
+
 # 저장
-os.makedirs('store', exist_ok=True)
-output_path = 'store/radish_separated.csv'
+os.makedirs('Data_250605/store', exist_ok=True)
+output_path = 'Data_250605/store/radish_separated.csv'
 final_df.to_csv(output_path, index=False)
 
 print(final_df.head())
