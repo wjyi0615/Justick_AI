@@ -1,6 +1,21 @@
 # Justick_AI
 캡스톤 디자인(2)
 
+**web url**
+http://justick.iptime.org/
+
+Front
+https://github.com/Cha-nu/Justick_front/
+
+server
+https://github.com/Cha-nu/Justick_server
+
+system
+https://github.com/Cha-nu/Justick_system
+
+**AI**
+https://github.com/wjyi0615/Justick_AI
+
 ## 🌾 농산물 가격 예측 시스템
 
 **작물별 시계열 특성에 따라 최적화된 모델을 자동 선택하고,  
